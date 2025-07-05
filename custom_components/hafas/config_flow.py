@@ -17,6 +17,10 @@ from homeassistant.core import HomeAssistant
 from homeassistant.data_entry_flow import FlowResult
 from homeassistant.helpers import selector
 
+RKRPProfile.availableProducts['subway'] = [128,1024]
+RKRPProfile.availableProducts['tram'] = [256,2048]
+
+
 from .const import (
     CONF_DESTINATION,
     CONF_ONLY_DIRECT,
